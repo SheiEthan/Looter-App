@@ -14,6 +14,9 @@
 		57656F142D3E3A3600A78D9B /* Looter_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57656F132D3E3A3600A78D9B /* Looter_AppTests.swift */; };
 		57656F1E2D3E3A3700A78D9B /* Looter_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57656F1D2D3E3A3700A78D9B /* Looter_AppUITests.swift */; };
 		57656F202D3E3A3700A78D9B /* Looter_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57656F1F2D3E3A3700A78D9B /* Looter_AppUITestsLaunchTests.swift */; };
+		57656F2F2D3E4EE200A78D9B /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57656F2E2D3E4EE200A78D9B /* AddItemView.swift */; };
+		57656F312D3E777600A78D9B /* LootItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57656F302D3E777600A78D9B /* LootItem.swift */; };
+		57656F332D3E7F8200A78D9B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57656F322D3E7F8200A78D9B /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		57656F192D3E3A3600A78D9B /* Looter AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Looter AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57656F1D2D3E3A3700A78D9B /* Looter_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Looter_AppUITests.swift; sourceTree = "<group>"; };
 		57656F1F2D3E3A3700A78D9B /* Looter_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Looter_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		57656F2E2D3E4EE200A78D9B /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		57656F302D3E777600A78D9B /* LootItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootItem.swift; sourceTree = "<group>"; };
+		57656F322D3E7F8200A78D9B /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				57656F022D3E3A3500A78D9B /* Looter_AppApp.swift */,
 				57656F042D3E3A3500A78D9B /* ContentView.swift */,
+				57656F2E2D3E4EE200A78D9B /* AddItemView.swift */,
+				57656F322D3E7F8200A78D9B /* Game.swift */,
+				57656F302D3E777600A78D9B /* LootItem.swift */,
 				57656F062D3E3A3600A78D9B /* Assets.xcassets */,
 				57656F082D3E3A3600A78D9B /* Preview Content */,
 			);
@@ -258,6 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				57656F052D3E3A3500A78D9B /* ContentView.swift in Sources */,
+				57656F332D3E7F8200A78D9B /* Game.swift in Sources */,
+				57656F2F2D3E4EE200A78D9B /* AddItemView.swift in Sources */,
+				57656F312D3E777600A78D9B /* LootItem.swift in Sources */,
 				57656F032D3E3A3500A78D9B /* Looter_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
